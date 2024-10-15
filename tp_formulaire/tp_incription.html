@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>formulaire d'incription</title>
+</head>
+
+<body>
+    <form class="" action="">
+        <h1>formulaire d'inscription</h1>
+
+        <div class="d-flex d-center">
+            <div class="flex-collum ">
+                <div>
+                    <label for="username">prenom :</label>
+                </div>
+                <div>
+                    <input type="text" id="username" name="username" value="votre prenom" />
+                </div>
+            </div>
+
+            <div class="flex-collum ">
+                <div>
+                    <label for="name">nom:</label>
+                </div>
+                <input type="text" id="name" name="name">
+            </div>
+
+        </div>
+
+        <div class="d-flex d-center">
+            <div class="flex-collum">
+                <div>
+                    <label for="date_de_naissance">date de naissance :</label>
+                </div>
+                <input type="date" name="date_de_naissance" id="date_de_naissance">
+            </div>
+            <div class="flex-collum">
+                <div>
+                    <label for="telephon">telephone:</label>
+                </div>
+                <input type="number" name="telephone" id="telephone" value="votre numéro">
+            </div>
+
+        </div>
+        <div class="d-flex d-center">
+            <div class="flex-collum">
+
+                <div> <label for="ville">ville :</label></div>
+                <div> <input type="text" name="ville" id="ville" value="votre ville"></div>
+            </div>
+
+            <div>
+
+               <div> <label for="pays">pays:</label></div>
+
+                <select name="pays" id="pays">
+                    <option value="espagne">espagne</option>
+                    <option value="france">france</option>
+                    <option value="canada">canada</option>
+                    <option value="hamsterdam">hamsterdam</option>
+                    <option value="suisse">suisse</option>
+                    <option value="usa">usa</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="d-flex d-center">
+            <div class="flex-collum">
+               <div> <label for="adresse">adresse:</label></div>
+                <textarea id="adresse" name="adresse" value="votre adresse " rows="1" cols="20"> </textarea>
+            </div>
+            <div class="flex-collum">
+                <div><label for="code_postal">code postal:</label></div>
+                <input type="number" name="code_postal" id="code_postal" value="votre code postal">
+            </div>
+        </div>
+
+        <div class="d-flex  contener">
+            <div>
+                <label for="civilité">civilité :</label>
+            </div>
+            <div>
+              <div>  <input type="checkbox" name="femme" id="femme">
+                <label for="femme">femme</label></div>
+              <div>  <input type="checkbox" name="homme" id="homme">
+                <label for="homme">homme</label></div>
+            </div>
+        </div>
+
+        <div class="contener">
+            <p>comment avez-vous entendu parler de ce site ?</p>
+            <input type="checkbox" name="ami" id="ami">
+            <label for="ami">un ami</label>
+            <input type="checkbox" name="publicité" id="publicité">
+            <label for="publicité">une publicité</label>
+            <input type="checkbox" name="hazard" id="hazard">
+            <label for="hazard">par hazard</label>
+        </div>
+
+        <div class="d-flex d-center">
+            <div class="flex-collum">
+               <div> <label for="email">email :</label></div>
+                <input type="email" name="email" id="email" value="votre email">
+            </div>
+
+            <div class="flex-collum">
+              <div>  <label for="password">mot de passe :</label></div>
+                <input type="password" name="password" id="password" value="votre mot de passe ">
+            </div>
+        </div>
+
+        <div class="flex-collum">
+           <div> <label for="avatar">avatar :</label></div>
+            <input type="file" name="avatard" id="avatard">
+        </div>
+
+        <div>
+            <p>sur une échelle de 1 à 5 , quelle note donneriez-vous a ce formulaire ? </p>
+            <input type="range" name="note" id="note" min="1" max="5">
+
+        </div>
+
+        <div class="o-center"><input type="submit" value="Sign in" /></div>
+    </form>
+</body>
+
+</html>

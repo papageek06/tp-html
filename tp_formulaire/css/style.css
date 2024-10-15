@@ -1,0 +1,58 @@
+/*commentaire */
+
+/* propriete : valeur ; */
+
+/* selecteur : permet de selectionner une ou plusieur balise */
+
+/* par type */ 
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    color: blueviolet;
+}
+
+form {
+    border: 1px solid black;
+    padding: 30px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-collum {
+    flex-direction: column;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+#button_connection {
+    margin-top: 10px;
+}
+
+.l_flex {
+    display: inline;
+}
+
+.d-center {
+    display: block inline-flex ;
+    margin: 20px;
+}
+
+.o-center {
+    justify-content: ;
+    margin: 20px;
+}
+
+.contener {
+  justify-content: ;
+}
